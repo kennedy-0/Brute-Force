@@ -11,3 +11,11 @@
 .Enviar o formulário;                                                                                                                                                                  
 .Verificar o resultado da autenticação através da URL;                                                                                                                                                                  
 .Encerrar o navegador ao finalizar a execução.                                                                                                                                                                  
+### 1. Configura o navegador de teste
+```bash
+servico = Service(ChromeDriverManager().install())
+navegador = webdriver.Chrome(service=servico)
+URL_LOGIN = ""  
+COMBINACOES_SENHA = []
+USER = "2026130028"
+```
