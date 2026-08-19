@@ -10,7 +10,11 @@
 .Gerar combinações numéricas para testes;                                                                                                                                                                  
 .Enviar o formulário;                                                                                                                                                                  
 .Verificar o resultado da autenticação através da URL;                                                                                                                                                                  
-.Encerrar o navegador ao finalizar a execução.                                                                                                                                                                  
+.Encerrar o navegador ao finalizar a execução.                                                                                              
+**Desenvolvimento do projeto**
+
+Durante o desenvolvimento, uma das etapas fundamentais é analisar a estrutura HTML da página que será utilizada no teste. É necessário identificar corretamente os elementos do formulário, como os campos de usuário, senha e o botão de envio
+
 ### 1. Configura o navegador de teste
 ```bash
 servico = Service(ChromeDriverManager().install())
@@ -20,6 +24,4 @@ COMBINACOES_SENHA = []
 USER = "2026130028"
 ```
 
-**Desenvolvimento do projeto**
-
-Durante o desenvolvimento, uma das etapas fundamentais é analisar a estrutura HTML da página que será utilizada no teste. É necessário identificar corretamente os elementos do formulário, como os campos de usuário, senha e o botão de envio.
+.
