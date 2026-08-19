@@ -13,7 +13,7 @@
 .Encerrar o navegador ao finalizar a execução.                                                                                              
 **Desenvolvimento do projeto**
 
-Durante o desenvolvimento, uma das etapas fundamentais é analisar a estrutura HTML da página que será utilizada no teste. É necessário identificar corretamente os elementos do formulário, como os campos de usuário, senha e o botão de envio
+Durante o desenvolvimento, uma das etapas fundamentais é analisar a estrutura HTML da página que será utilizada no teste. É necessário identificar corretamente os elementos do formulário, como os campos de usuário, senha e o botão de envio.
 
 ### 1. Configura o navegador de teste
 ```bash
@@ -24,4 +24,16 @@ COMBINACOES_SENHA = []
 USER = "2026130028"
 ```
 
-.
+# Versão 0.1.0
+
+Primeira versão do projeto, desenvolvida para estudar automação web com Python e Selenium.
+
+Nesta versão, foi implementada a automação básica de um formulário de login, incluindo a identificação dos elementos HTML, preenchimento dos campos e interação com o botão de envio.
+
+Também foi adicionada a geração de combinações numéricas para utilização como dados de teste.
+
+A identificação dos elementos depende da análise do HTML da página, podendo utilizar ID, NAME, CLASS, CSS_SELECTOR ou XPATH.
+
+Status: versão inicial — em desenvolvimento.
+
+
