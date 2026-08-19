@@ -19,3 +19,7 @@ URL_LOGIN = ""
 COMBINACOES_SENHA = []
 USER = "2026130028"
 ```
+
+**Desenvolvimento do projeto**
+
+Durante o desenvolvimento, uma das etapas fundamentais é analisar a estrutura HTML da página que será utilizada no teste. É necessário identificar corretamente os elementos do formulário, como os campos de usuário, senha e o botão de envio.
