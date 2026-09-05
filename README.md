@@ -21,7 +21,7 @@ Nessa versão o projeto ja conta com um menu de seleção pra poder escolher que
 podendo escolher entre fazer a analize do site para ver seus inputs e também o ataque de força bruta no site.
 
 <div style="display: flex; gap:30px;">
-    <img src="img/tela.jpg" width="250">
+    <img src="img/interface.png" width="250">
 </div>
 
 
