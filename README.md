@@ -18,14 +18,17 @@ Durante o desenvolvimento, uma das etapas fundamentais é analisar a estrutura H
 # Versão 2.0
 
 Nessa versão o projeto ja conta com um menu de seleção pra poder escolher que possa escolher a funço que vai ser executada,
-podendo escolher entre fazer a analize do site para ver seus inputs e também o ataque de força bruta no site.
+podendo escolher entre fazer a analize do site para ver seus inputs e também o ataque de força bruta no site. Essa nova verção
+continua com as mesmas funçoes da "v0.1.0", mas com a adição de uma letutra da pagina pela URL para que possa fazer a analize.
 
 <div style="display: flex; gap:30px;">
     <img src="img/interface.png" width="250">
 </div>
 
+```bash
+#intalação das bibliotecas
+pip install webdriver_manager
+pip install selenium
+```
 
-
-**Status: versão inicial — em desenvolvimento.**
-
-
+#LEMBRANDO QUE ESSA FERRAMENTA FOI CRIADA PARA FINS EDUCATIVOS; A FORMA COMO ELA É USADA SERÁ RESPONSABILIDADE DO USUÁRIO.#
