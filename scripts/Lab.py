@@ -1,4 +1,3 @@
-import os
 import time
 import random
 import sys
@@ -37,6 +36,7 @@ def load():
 
 load()
 print()
+
 def gerar_sennha(TAMANHO):
     return''.join(str(random.randint(0, 9))for _ in range(TAMANHO))
 
@@ -56,7 +56,7 @@ def brute_force():
     try:
         
         for _ in range(tentativas):
-            senha = gerar_sennha
+            senha = gerar_sennha(TAMANHO)
             navegador.get(URL)
             time.sleep(1)
             
@@ -123,7 +123,7 @@ print(ROJO + "Author: Cyber Wanderer" + RESET)
 print(ROJO + "Github: https://github.com/kennedy-0" + RESET)
 print(ROJO + "Name: LoginTastLab" + RESET)
 for i, pasta in enumerate (pastas):
-    print(VERDE + f"[{i}] {pasta}")
+        print(VERDE + f"[{i}] {pasta}")
 
 pasta = int(input("Escolha a ferramenta: "))
 nomep = pastas[pasta]
