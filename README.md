@@ -26,7 +26,8 @@ continua com as mesmas funçoes da "v0.1.0", mas com a adição de uma letutra d
 </div>
 
 ```bash
-#intalação das bibliotecas
+#intalação das bibliotecas e ferramantas para analize
+sudo apt install nmap
 pip install webdriver_manager
 pip install selenium
 ```
