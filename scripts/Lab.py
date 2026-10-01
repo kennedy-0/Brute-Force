@@ -1,4 +1,5 @@
 import time
+import subprocess
 import random
 import sys
 from selenium import webdriver
@@ -107,15 +108,21 @@ def Analize():
             "| TEXTO =", botao.text
 
         )
-    
+
+def nmap():
+    ip = str(input("Digite o IP: "))
+    subprocess.run(["sudo", "nmap", "-sn", ip])  
+
 function ={
     'Brute Force':brute_force,
-    'Analize de inputs':Analize
+    'Analize de inputs':Analize,
+    'Nmap':nmap
 }
 
 pastas =[
     'Brute Force',
-    'Analize de inputs'
+    'Analize de inputs',
+    'Nmap'
 ]
 
 print(AMARELO + "=" * 31)
